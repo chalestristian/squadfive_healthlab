@@ -26,32 +26,43 @@ WhatsApp comercial:  [wa.me/553180273016](https://wa.me/553180273016)
 **4. APLICATIVO BEM-ESTAR E QUALIDADE DE VIDA - APP (D)**
 
 **4.1 NUTRIÇÃO E REEDUCAÇÃO ALIMENTAR**
+
 Aplicativo que proporcione ao colaborador receber dicas de valor calórico, valor energético, benefícios ao se consumir maiores quantidades e variedades de alimentos não industrializados, bem como os impactos negativos na saúde e na qualidade de vida quando se consome produtos industrializados.
 Pode se também, dentro do mesmo aplicativo, disponibilizar ao colaborador ferramenta que o explique e o possibilite ter conhecimento do seu IMC - Índice de Massa Corporal, através do cálculo do peso (em kg) dividido pela altura ao quadrado (em metros), sendo que logo após o resultado lhe aparecem sugestões de alimentos, dicas de receitas fáceis e saudáveis.
 Inserir dicas de alimentações saudáveis também para crianças.  
 
 **4.2 INCENTIVO À ATIVIDADE FISICA**
+
 Práticas de atividades físicas que podem ser realizadas dentro de casa, em tempos de Covid19, que lhe ajudarão a ter uma vida mais saudável e maior disposição, tornando-os pessoas mais felizes, podendo ser realizadas por toda a família.  
 
 **4.3 SAÚDE EMOCIONAL**
+
 Disponibilização de curtos vídeos para reflexão, práticas de meditação, técnicas de aromaterapia atrelada a técnicas de respiração para combater até mesmo a ansiedade, cromoterapia, músicas para relaxar e acalmar com o intuito de melhorar o bem-estar físico e psicológico de uma pessoa, dicas de leituras, séries e filmes para serem assistidos em família, em uma sessão pipoca.
 
 **4.4 OUTROS**
+
 (Por exemplo: curso para casal grávido; programa específico de reeducação alimentar para empregados elegíveis, devido fatores de riscos cardiovasculares; campanha vacina em dia; programa cessação de tabagismo com encontros de grupos com acompanhamento médico e psicológico, semana da saúde e outros).
 
 ---
 **NOSSA SQUAD:**
+
 Nossa squad nomeada de SquadFive (grupo 5) é composta pelos membros:
 
 Thales Cristian - thaleseugenio.3012@aluno.unibh.br - Ciências da Computação
+
 Pedro Frade - pedrobfrade@hotmail.com - Ciências da Computação
+
 Daniel Filho - danielfilho3011@gmail.com - Ciências da Computação
+
 Benito Ricoy - benricoy@gmail.com - Ciências da Computação
+
 Israel ... - Ciências da Computação
+
 Julia... - Medicina
 
 ---
 **NOSSO ACOMPANHAMENTO:**
+
 [Trello](https://trello.com/invite/b/xnC6WW2n/100a8491c8a4a744cdc55845e2d19fd7/squadfivehealthlab)
 
 ---
