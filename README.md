@@ -9,9 +9,13 @@ O projeto que tem como objetivo agregar à formação acadêmica o conhecimento 
 Para saber mais informações acompanhe as redes sociais do Projeto Health Lab 4.0 ou entre em contato com a equipe idealizadora:
 
 Site oficial:  [sites.google.com/prof.unibh.br/projetohealthlab](https://sites.google.com/prof.unibh.br/projetohealthlab)
+
 LinkedIn:  [linkedin.com/in/healthlab](https://www.linkedin.com/in/healthlab)
+
 Instagram:  [instagram.com/projetohealthlab](http://www.instagram.com/projetohealthlab)
+
 Email: projetohealthlab@gmail.com
+
 WhatsApp comercial:  [wa.me/553180273016](https://wa.me/553180273016)
 
 **fonte: [unibh.br/conheca-o-projeto-health-lab-4-0](https://www.unibh.br/conheca-o-projeto-health-lab-4-0/)**
