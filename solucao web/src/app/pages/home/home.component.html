@@ -1,0 +1,12 @@
+<app-carousel-one [arrayImages]="images"></app-carousel-one>
+<div class="container space">
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let item of listCards">
+            <app-card-one [title]="item.title" [description]="item.description" [image]="item.image"
+                [route]="item.route"></app-card-one>
+        </div>
+    </div>
+    <app-section-one *ngFor="let list of listSection" [titleBlack]="list.titleBlack" [titleClear]="list.titleClear"
+        [description]="list.description" [image]="list.image" [position]="list.position"></app-section-one>
+</div>
+<br>
