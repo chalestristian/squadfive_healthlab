@@ -21,11 +21,11 @@ export class NavbarOneComponent implements OnInit {
       route: '/fisicas'
     },
     {
-      name: 'Mental e Emocional',
+      name: 'Mental & Emocional',
       route: '/mental-emocional'
     },
     {
-      name: 'COVID-19',
+      name: 'Covid-19',
       route: '/covid'
     },
   ];

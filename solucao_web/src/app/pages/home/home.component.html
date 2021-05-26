@@ -1,12 +1,27 @@
-<app-navbar-one></app-navbar-one>
-<app-carousel-one [arrayImages]="images"></app-carousel-one>
 <div class="container center">
-
     <div class="row">
-        <div class="col-sm-3" *ngFor="let item of listCards">
-            <app-card-one [title]="item.title" [description]="item.description" [image]="item.image" [route]="item.route"></app-card-one>
+        <div class="col-md-12">
+            <div class="linha">
+            </div>
         </div>
     </div>
-    <app-section-one *ngFor="let list of listSection" [titleBlack]="list.titleBlack" [titleClear]="list.titleClear" [description]="list.description" [image]="list.image" [position]="list.position"></app-section-one>
+    <div class="row">
+        <div class="col-md-12">
+            <app-navbar-one></app-navbar-one>
+            <app-carousel-one [arrayImages]="images"></app-carousel-one>
+        </div>
+
+
+        <div class="col-md-12">
+            <span class="">Sua Saude ----- </span>
+            <span> icon serach</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <span> Alimentar</span>
+            <span> Fisica</span>
+            <span> Mental & Emocional</span>
+        </div>
+    </div>
 </div>
-<br>

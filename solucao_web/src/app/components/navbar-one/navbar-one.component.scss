@@ -1,0 +1,34 @@
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #3479e0;
+}
+div{
+  background-color: #F3F3F3;
+  }
+  nav{
+    margin: 8px 0px;
+    padding: 2px 0px;
+    box-shadow: inset 0 0 1em #f3f3f3, 0 0 0.5em #dddddd;
+  }
+  .navbar-toggler{
+    border: 2px solid #dddddd;
+  }
+  .navbar-toggler:hover{
+   border: 2px solid #3479e0;
+  }
+  .navbar-toggler:active{
+    border: 2px solid #3479e0;
+  }
+  .nav-link{
+    margin: 5px 0px;
+    box-shadow: inset 0 0 1em #f3f3f3, 0 0 0.1em #402dad;
+  }
+  .nav-link:hover{
+    margin: 5px 0px;
+    background-color: #ebebeb;
+    box-shadow: none;
+    border: 1px solid #402dadab;
+
+  }
