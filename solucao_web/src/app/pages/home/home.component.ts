@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   images = [
-    { path: 'https://www.10wallpaper.com/wallpaper/1366x768/1712/Summer_girl_coast_yoga_sport_4K_HD_1366x768.jpg' },
+    { path: 'https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/solucao_web/src/assets/imgs/home-imgs/nav-slide/pexels-guilherme-almeida-1858175.jpg' },
     { path: 'https://www.lgpdbrasil.com.br/wp-content/uploads/2019/05/saude_dados_lgpd-1920x1080.jpeg' },
   ];
 
