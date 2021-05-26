@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavbarOneComponent } from './components/navbar-one/navbar-one.component';
+//import { NavbarOneComponent } from './components/deletenavbar-one/navbar-one.component'; delete
 import { HomeComponent } from './pages/home/home.component';
 import { AlimentacaoComponent } from './pages/alimentacao/alimentacao.component';
 import { AtividadeFisicaComponent } from './pages/atividade-fisica/atividade-fisica.component';
@@ -19,10 +19,15 @@ import { HttpClientModule } from '@angular/common/http';
 import * as echarts from 'echarts';
 import { MatSelectModule } from '@angular/material/select';
 import { NgxEchartsModule } from 'ngx-echarts';
+import { StartComponent } from './pages/start/start.component';
+import { LoginComponent } from './pages/login/login.component';
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { EsqueciSenhaComponent } from './pages/esqueci-senha/esqueci-senha.component';
+import { TermoDeUsoComponent } from './pages/termo-de-uso/termo-de-uso.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarOneComponent,
+    //    NavbarOneComponent, delete
     HomeComponent,
     AlimentacaoComponent,
     AtividadeFisicaComponent,
@@ -31,7 +36,13 @@ import { NgxEchartsModule } from 'ngx-echarts';
     CarouselOneComponent,
     CardOneComponent,
     FooterOneComponent,
-    SectionOneComponent
+    SectionOneComponent,
+    StartComponent,
+    LoginComponent,
+    CadastroComponent,
+    LoginComponent,
+    EsqueciSenhaComponent,
+    TermoDeUsoComponent,
   ],
   imports: [
     BrowserModule,

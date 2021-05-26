@@ -1,7 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0;}
 
 .cursor-link{
     cursor: pointer;
@@ -13,4 +12,93 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 mat-form-field{
     width: 100%;
+}
+
+/*GOOGLE FONTS IMPORTS*/
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+body {
+  background-color: #f3f3f3;
+}
+a {
+  color: #4d4d4d;
+}
+a::after {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+.icones {
+  text-align: center;
+  padding: 10px 0px;
+  border: 2px solid #6b63f9d3;
+  border-radius: 25px;
+}
+.material-icons {
+  text-align: center;
+  padding-left: 10px;
+  width: 35px;
+}
+.icones:hover {
+  background-color: #6b63f934;
+  border: 2px solid #6b63f9;
+}
+.botao {
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  color: white;
+  background-color: #6c63ff;
+  margin: 10px 0px;
+  padding: 10px;
+  border: 1px solid #6198eb;
+  border-radius: 10px;
+}
+.botao:hover {
+  background-color: #4138ee;
+  border: 1px solid #3479e0;
+}
+.botao:active {
+  background-color: #3479e0;
+}
+.linha {
+  padding: 5px 0px;
+  border-bottom: 1px solid #9c9c9c;
+}
+.center {
+  text-align: center;
+}
+.titulo {
+  font-family: "Comfortaa", cursive;
+  font-size: 3em;
+  padding: 10px 0px;
+  color: #4d4d4d;
+}
+.subtitulo {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.3em;
+  padding: 10px 0px;
+  color: #4d4d4d;
+}
+.subsubtitulo {
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  padding: 10px 0px;
+  color: #4d4d4d;
+}
+.imagem-login {
+  padding: 10px 0px;
+  width: 60%;
+}
+
+
+/*=================================*/
+/*===============TERMO=============*/
+/*=================================*/
+.text-style-termo {
+  padding: 5px;
+  font-family: "Comfortaa", cursive;
+  font-size: 0.8em;
+  color: #4d4d4d;
+}
+.leftalign {
+  text-align: left;
 }

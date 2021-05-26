@@ -5,6 +5,10 @@ import { AtividadeFisicaComponent } from './pages/atividade-fisica/atividade-fis
 import { CovidComponent } from './pages/covid/covid.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MentalEmocionalComponent } from './pages/mental-emocional/mental-emocional.component';
+import { StartComponent } from './pages/start/start.component';
+import { LoginComponent } from './pages/login/login.component';
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
+
 
 const routes: Routes = [
   {
@@ -31,6 +35,18 @@ const routes: Routes = [
   {
     path: 'covid',
     component: CovidComponent,
+  },
+  {
+    path: 'start',
+    component: StartComponent,
+  },
+  {
+    path: 'login',
+    component: LoginComponent,
+  },
+  {
+    path: 'cadastro',
+    component: CadastroComponent,
   },
 ];
 
