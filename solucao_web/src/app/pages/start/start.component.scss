@@ -1,0 +1,208 @@
+
+nav {
+  padding: 20px 0px;
+}
+
+.conteudo-box {
+  padding: 10px 2px;
+  display: inline-block;
+  border: 2px solid #9c9c9c;
+}
+.principal-content {
+  padding: 15px 0px;
+  margin: 10px 0px;
+  box-shadow: inset 0 0 1em #f3f3f3, 0 0 0.5em #dddddd;
+  border-radius: 10px;
+}
+.principal-content-login {
+  padding: 15px 0px;
+  margin: 10px 0px;
+  box-shadow: inset 0 0 1em #f3f3f3, 0 0 0.5em #dddddd;
+  border-radius: 10px;
+}
+.leftside-bg,
+.rightside-bg {
+  display: none;
+}
+
+/*------------------------------------------------*/
+/*-------------START MEDIAQUERIES ----------------*/
+/*------------------------------------------------*/
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) @media (max-width: 575.98px) {Não sei se vou usar esse;}*/
+/* Dispositivos small  (telefones em modo paisagem, com 576px ou mais) @media (min-width: 576px) and (max-width: 767.98px) {Não sei se vou usar esse;}*/
+@media (max-width: 300px) {
+  .titulo {
+    font-size: 1.5em;
+  }
+  .subtitulo {
+    font-size: 1em;
+  }
+}
+/*Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .titulo {
+    font-size: 5em;
+  }
+  .subtitulo {
+    font-size: 1.5em;
+  }
+  .principal-content {
+    margin: 50px 0px;
+    height: 320px;
+  }
+  .imagem-login {
+    padding: 10px 0px;
+    width: 90%;
+  }
+  .botao {
+    font-size: 1.8em;
+  }
+  header,
+  .principal-content,
+  .linha {
+    margin: 3vh 0vh;
+  }
+}
+
+/*Dispositivos large (desktops com 992px ou mais) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .titulo {
+    font-size: 7em;
+  }
+  .subtitulo {
+    font-size: 2em;
+  }
+  .principal-content {
+    height: 450px;
+  }
+  .imagem-login {
+    padding: 10px 0px;
+    width: 90%;
+  }
+  .botao {
+    font-size: 2em;
+  }
+  header,
+  .principal-content,
+  .linha {
+    margin: 3.5vh 0vh;
+  }
+}
+
+/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+
+@media (min-width: 1200px) {
+  .titulo {
+    font-size: 7em;
+  }
+  .subtitulo {
+    font-size: 2em;
+  }
+  .principal-content {
+    height: 450px;
+  }
+  .imagem-login {
+    padding: 10px 0px;
+    width: 90%;
+  }
+  .botao {
+    font-size: 2em;
+  }
+  header,
+  .principal-content,
+  .linha {
+    margin: 3.5vh 0vh;
+  }
+}
+
+@media (min-width: 1800px) {
+  nav {
+    margin-left: 90px ;
+    position: absolute;
+    top: 0;
+    width: 1050px;
+  }
+  .principal-content-login {
+    border: 1px solid #e6e6e6;
+  }
+  .container {
+    padding: 200px 40px 0px 40px;
+    border-left: 2px dashed #e4e4e4;
+    border-right: 2px dashed #e4e4e4;
+  }
+  .leftside-bg {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 18%;
+    height: 100vh;
+    padding: 10px;
+  }
+  .rightside-bg {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 18%;
+    height: 100vh;
+  }
+  .imagem-bg {
+    opacity: 50%;
+    padding: 0;
+    margin: 7vh;
+    width: 40%;
+  }
+}
+@media (min-width: 1900px) {
+  .leftside-bg {
+    width: 20%;
+  }
+  .rightside-bg {
+    width: 20%;
+  }
+  .imagem-bg {
+    width: 40%;
+    margin: 4vh;
+  }
+}
+@media (min-width: 2000px) {
+  .leftside-bg {
+    width: 21.5%;
+  }
+  .rightside-bg {
+    width: 21.5%;
+  }
+  .imagem-bg {
+    width: 40%;
+    margin: 3vh;
+  }
+}
+
+@media (min-width: 2500px) {
+  .leftside-bg {
+    padding-top: 10px;
+  }
+  .rightside-bg {
+    padding-top: 10px;
+  }
+  .container {
+    padding: 20.5vh 2vw 0vh 2vw;
+  }
+  .imagem-bg{
+    width: 30%;
+    margin: 10vh;
+  }
+}
+@media (min-width: 2800px) {
+  .container {
+    padding: 13vh 2vw;
+  }
+}
+@media (min-width: 3800px) {
+  .container {
+    border: none;
+    margin-top: 10vh;
+  }
+}
