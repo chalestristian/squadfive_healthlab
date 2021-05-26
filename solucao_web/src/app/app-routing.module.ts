@@ -8,6 +8,8 @@ import { MentalEmocionalComponent } from './pages/mental-emocional/mental-emocio
 import { StartComponent } from './pages/start/start.component';
 import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { TermoDeUsoComponent } from './pages/termo-de-uso/termo-de-uso.component';
+
 
 
 const routes: Routes = [
@@ -47,6 +49,10 @@ const routes: Routes = [
   {
     path: 'cadastro',
     component: CadastroComponent,
+  },
+  {
+    path: 'termo-de-uso',
+    component: TermoDeUsoComponent,
   },
 ];
 
