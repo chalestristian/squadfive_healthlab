@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselOneComponent } from './components/carousel/carousel-one/carousel-one.component';
+import { NavbarOneComponent } from './components/navbar-one/navbar-one.component';
+
 import { HomeComponent } from './pages/home/home.component';
 import { AlimentacaoComponent } from './pages/alimentacao/alimentacao.component';
 import { AtividadeFisicaComponent } from './pages/atividade-fisica/atividade-fisica.component';
@@ -28,6 +30,7 @@ import { TermoDeUsoComponent } from './pages/termo-de-uso/termo-de-uso.component
     AppComponent,
     CarouselOneComponent,
     HomeComponent,
+    NavbarOneComponent,
     AlimentacaoComponent,
     AtividadeFisicaComponent,
     MentalEmocionalComponent,
