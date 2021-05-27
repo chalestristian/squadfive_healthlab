@@ -1,0 +1,70 @@
+nav{
+  margin-top: 60px;
+}
+.imagem-login{
+  width: 80%;
+}
+form{
+  padding: 50px 0px;
+  width: 350px;
+  margin-left: 80px;
+} 
+//////////////////////////////////////////////////////
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  form{
+    margin-left: 135px;
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .imagem-login{
+    width: 60%;
+  } 
+  form{
+    margin-left: 245px;
+    width: 400px;
+  }
+}
+/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+
+@media (min-width: 1200px) {
+  .imagem-login{
+    width: 50%;
+  } 
+  form{
+    margin-left: 340px;
+    width: 400px;
+  }
+
+}
+@media (min-width: 1400px) {
+  .imagem-login{
+    width: 40%;
+  } 
+  form{
+    margin-left: 440px;
+    width: 400px;
+  }
+} 
+@media (min-width: 1700px) { 
+
+  }
+  
+@media (min-width: 1900px) {
+  
+}
+@media (min-width: 2000px) {
+
+}
+@media (min-width: 2000px) {
+  
+}
+
+@media (min-width: 2500px) {
+  
+}
+@media (min-width: 3800px) {
+ 
+}
+
