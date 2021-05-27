@@ -10,9 +10,6 @@ import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { TermoDeUsoComponent } from './pages/termo-de-uso/termo-de-uso.component';
 import { EsqueciSenhaComponent } from './pages/esqueci-senha/esqueci-senha.component';
-
-
-
 const routes: Routes = [
   {
     path: '',
@@ -59,6 +56,7 @@ const routes: Routes = [
     path: 'esqueci-senha',
     component: EsqueciSenhaComponent,
   },
+
 ];
 
 @NgModule({

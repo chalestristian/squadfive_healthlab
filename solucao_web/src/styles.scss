@@ -1,19 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 html, body { height: 100%; }
 body { margin: 0;}
-
 .cursor-link{
     cursor: pointer;
 }
-
 .featurette-divider {
     margin: 5rem 0;
 }
-
 mat-form-field{
     width: 100%;
 }
-
 /*GOOGLE FONTS IMPORTS*/
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
@@ -21,11 +17,12 @@ body {
   background-color: #f3f3f3;
 }
 a {
-  color: #4d4d4d;
+  color: #6b63f9d3;
+  text-decoration: underline;
 }
 a::after {
   color: #4d4d4d;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .icones {
   text-align: center;
@@ -48,25 +45,25 @@ a::after {
   color: white;
   background-color: #6c63ff;
   margin: 10px 0px;
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #6198eb;
   border-radius: 10px;
 }
 .botao:hover {
-  background-color: #4138ee;
-  border: 1px solid #3479e0;
+  background-color: #6198eb;
+  border: 1px solid #6c63ff;
 }
 .botao:active {
   background-color: #3479e0;
 }
 .linha {
   padding: 5px 0px;
-  border-bottom: 1px solid #9c9c9c;
+  border-bottom: 1px dashed #9c9c9c;
 }
 .center {
   text-align: center;
 }
-.titulo {
+.titulo{
   font-family: "Comfortaa", cursive;
   font-size: 3em;
   padding: 10px 0px;
@@ -74,7 +71,7 @@ a::after {
 }
 .subtitulo {
   font-family: "Comfortaa", cursive;
-  font-size: 1.3em;
+  font-size: 1.5em;
   padding: 10px 0px;
   color: #4d4d4d;
 }
@@ -84,6 +81,7 @@ a::after {
   padding: 10px 0px;
   color: #4d4d4d;
 }
+.conteudo1{}
 .imagem-login {
   padding: 10px 0px;
   width: 60%;
@@ -101,4 +99,13 @@ a::after {
 }
 .leftalign {
   text-align: left;
+}
+
+@media (max-width: 300px) {
+  .titulo {
+    font-size: 1.5em;
+  }
+  .subtitulo {
+    font-size: 1em;
+  }
 }
