@@ -11,6 +11,7 @@
     margin: 10px 0px;
 }
 .suasaude{
+    color: #6c63ff;
     float: left;
     left: 10px;
 }
@@ -24,26 +25,24 @@
 }
 .tag-content{
     padding: 15px 0px;
- 
-  
-    
 }
 .tag{
+    color: #6c63ff;
     padding: 10px;
     margin: 5px 10px;    
     border-radius: 50px;;
 }
 .tag-1{
-    border: 2px solid #00c3ff8f;
-    background-color: #00c3ff60;
+    border: 1-px solid #00c3ff8f;
+    background-color: #00c3ff18;
 }
 .tag-2{
-    border: 2px solid #00ff8869;
-    background-color: #00ff8860;
+    border: 1px solid #00ff8869;
+    background-color: #00ffc818;
 }
 .tag-3{
-    border: 2px solid #ff00d45b;
-    background-color: #ff00d460;
+    border: 1px solid #ff00d45b;
+    background-color: #ea00ff18;
 }
 .btns-recomendados-vertodos{
     height: 50px;
@@ -51,8 +50,9 @@
     padding: 0px 10px;
 }
 .recomendado{
-    text-decoration: underline;
+    color: #6c63ff;
     float: left;
+    
 }
 .vertodos{
     text-decoration: underline;
@@ -62,11 +62,8 @@
     color: #6c63ff;
 }
 
- .recomendados-content{
-     
-     width: 100%;
-   
-    
+ .recomendados-content{     
+    width: 100%;    
     text-align: center;
 
  }
@@ -74,15 +71,13 @@
     width:220px;
  }
  .aaa{
+     padding-bottom: 25px;
      display: inline-block;
      margin: 20px 2px;
-     background-color: white;
+     background-color: #f5f5f57e;
+     border-radius: 10px;
+     box-shadow: inset 0 0 1em #f3f3f3, 0 0 0.5em #dddddd;
  }
-// .recomendado{
-//     float: left;
-//     left: 15px;
-// }
-// .vertodos{
-//     float: right;
-//     right: 15px;
-// }
+.aaa>img{
+    border-radius: 10px 10px 0px 0px;
+}
