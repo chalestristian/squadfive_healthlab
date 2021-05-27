@@ -23,14 +23,14 @@
     width: 45px;
 }
 .tag-content{
-    padding: 10px 0px 40px 0px;
-    border: 1px solid red;
+    padding: 15px 0px;
+ 
   
     
 }
 .tag{
     padding: 10px;
-    margin-right: 10px;    
+    margin: 5px 10px;    
     border-radius: 50px;;
 }
 .tag-1{
@@ -45,13 +45,44 @@
     border: 2px solid #ff00d45b;
     background-color: #ff00d460;
 }
-.recomendados-content{
-    border: 1px solid red;
+.btns-recomendados-vertodos{
+    height: 50px;
+    margin-top: 10px;
+    padding: 0px 10px;
 }
-.teste{
-    width: 200px;
-}
-.aaa{
-    margin: 10px 15px 10px 0px;
+.recomendado{
+    text-decoration: underline;
     float: left;
 }
+.vertodos{
+    text-decoration: underline;
+    float: right;
+}
+.recomendado:hover, .vertodos:hover{
+    color: #6c63ff;
+}
+
+ .recomendados-content{
+     
+     width: 100%;
+   
+    
+    text-align: center;
+
+ }
+.teste{ 
+    width:220px;
+ }
+ .aaa{
+     display: inline-block;
+     margin: 20px 2px;
+     background-color: white;
+ }
+// .recomendado{
+//     float: left;
+//     left: 15px;
+// }
+// .vertodos{
+//     float: right;
+//     right: 15px;
+// }
