@@ -19,6 +19,7 @@ form {
 .leftside-bg, .rightside-bg{
   display: none;
 }
+
 /*------------------------------------------------*/
 /*-------------START MEDIAQUERIES ----------------*/
 /*------------------------------------------------*/
@@ -49,7 +50,7 @@ form {
     padding-top: 5vh;
   }
   form{
-    margin-left: 15vh;
+    margin-left: 190px;
     width: 50%;
   }
 }
@@ -69,7 +70,7 @@ form {
     font-size: 1.3em;
   }
   form{
-    margin-left: 20vh;
+    margin-left: 250px;
     width: 50%;
   }
 
@@ -88,11 +89,12 @@ form {
   .imagem-login {
     padding: 10px 0px;
     width: 30%;
-  }
+  } 
   form{
-    margin-left: 45vh;
-    width: 30%;
+    margin-left: 340px;
+    width: 40%;
   }
+
   .botao {
     font-size: 1.5em;
   }
@@ -102,7 +104,20 @@ form {
     margin: 2vh 0vh;
   }
 }
+@media (min-width: 1400px) {
 
+
+  .imagem-login {
+    padding: 10px 0px;
+    width: 40%;
+  }
+  form{
+    margin-left: 400px;
+
+  }
+
+  
+}
 @media (min-width: 1800px) {
   .principal-content-login {
     border: 1px solid #e6e6e6;
@@ -184,4 +199,99 @@ form {
     border: none;
     margin-top: 10vh;
   }
-}
+}/////////////
+// @media (min-width: 1400px) {
+//   nav {
+//     margin-left: 0px ;
+//     position: absolute;
+//     top: 0;
+//     width: 1300px;
+//   } 
+// } 
+// @media (min-width: 1700px) { 
+
+// .leftside-bg {
+//   display: block;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 13.5%;
+//   height: 100vh;  
+// }
+// .rightside-bg {
+//   display: block;
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   width: 13.5%;
+//   height: 100vh;
+// }
+// .imagem-bg {
+//   opacity: 50%;
+//   padding: 20px 10px;
+//   margin: 20px;
+//   width: 10vw;
+// }
+//   }
+  
+// @media (min-width: 1900px) {
+//   .leftside-bg {
+//     width: 15%;
+//   }
+//   .rightside-bg {
+//     width: 15%;
+//   }
+//   .imagem-bg {
+//     margin: 20px;
+//     width: 10vw;
+//   }
+// }
+// @media (min-width: 2000px) {
+//   .leftside-bg {
+//     width: 17%;
+//   }
+//   .rightside-bg {
+//     width: 17%;
+//   }
+//   .imagem-bg {
+//     margin: 20px;
+//     width: 10vw;
+//   }
+// }
+// @media (min-width: 2000px) {
+//   .leftside-bg {
+//     width: 18%;
+//   }
+//   .rightside-bg {
+//     width: 18%;
+//   }
+//   .imagem-bg {
+//     margin: 20px;
+//     width: 10vw;
+//   }
+// }
+
+// @media (min-width: 2500px) {
+//   .leftside-bg {
+//     width: 23.5%;
+//   }
+//   .rightside-bg {
+//     width: 23.5%;
+//   }
+//   .imagem-bg {
+//     margin: 40px;
+//     width: 10vw;
+//   }
+// }
+// @media (min-width: 2800px) {
+//   .container {
+//     padding: 13vh 2vw;
+//   }
+// }
+// @media (min-width: 3800px) {
+//   .container {
+//     border: none;
+//     margin-top: 10vh;
+//   }
+// }
+
