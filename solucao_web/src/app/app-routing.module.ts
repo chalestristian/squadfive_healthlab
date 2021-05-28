@@ -13,6 +13,10 @@ import { EsqueciSenhaComponent } from './pages/esqueci-senha/esqueci-senha.compo
 import { FeedalimentarComponent } from './pages/aasubpages-content/alimentar/feedalimentar/feedalimentar.component';
 import { CompulsaoalimentarComponent } from './pages/aasubpages-content/alimentar/alimentar-content/compulsaoalimentar/compulsaoalimentar.component';
 import { MenosacucarComponent } from './pages/aasubpages-content/alimentar/alimentar-content/menosacucar/menosacucar.component';
+import { SaudedamulherComponent } from './pages/aasubpages-content/alimentar/alimentar-content/saudedamulher/saudedamulher.component';
+import { VidasaudavelComponent } from './pages/aasubpages-content/alimentar/alimentar-content/vidasaudavel/vidasaudavel.component';
+import { PesoquarentenaComponent } from './pages/aasubpages-content/alimentar/alimentar-content/pesoquarentena/pesoquarentena.component';
+import { Beneficiosomega3Component } from './pages/aasubpages-content/alimentar/alimentar-content/beneficiosomega3/beneficiosomega3.component';
 
 const routes: Routes = [
   {
@@ -70,6 +74,22 @@ const routes: Routes = [
   }, {
     path: 'menosacucar',
     component: MenosacucarComponent,
+  },
+  {
+    path: 'saudedamulher',
+    component: SaudedamulherComponent,
+  },
+  {
+    path: 'vidasaudavel',
+    component: VidasaudavelComponent,
+  },
+  {
+    path: 'pesoquarentena',
+    component: PesoquarentenaComponent,
+  },
+  {
+    path: 'beneficiosomega3',
+    component: Beneficiosomega3Component,
   },
 
 ];
