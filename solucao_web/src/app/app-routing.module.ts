@@ -10,6 +10,9 @@ import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { TermoDeUsoComponent } from './pages/termo-de-uso/termo-de-uso.component';
 import { EsqueciSenhaComponent } from './pages/esqueci-senha/esqueci-senha.component';
+import { FeedalimentarComponent } from './pages/aasubpages-content/alimentar/feedalimentar/feedalimentar.component';
+import { CompulsaoalimentarComponent } from './pages/aasubpages-content/alimentar/alimentar-content/compulsaoalimentar/compulsaoalimentar.component';
+
 const routes: Routes = [
   {
     path: '',
@@ -56,6 +59,15 @@ const routes: Routes = [
     path: 'esqueci-senha',
     component: EsqueciSenhaComponent,
   },
+  {
+    path: 'feedalimentar',
+    component: FeedalimentarComponent,
+  },
+  {
+    path: 'compulsaoalimentar',
+    component: CompulsaoalimentarComponent,
+  },
+
 
 ];
 

@@ -25,6 +25,10 @@ import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { EsqueciSenhaComponent } from './pages/esqueci-senha/esqueci-senha.component';
 import { TermoDeUsoComponent } from './pages/termo-de-uso/termo-de-uso.component';
+import { FeedalimentarComponent } from './pages/aasubpages-content/alimentar/feedalimentar/feedalimentar.component';
+import { CompulsaoalimentarComponent } from './pages/aasubpages-content/alimentar/alimentar-content/compulsaoalimentar/compulsaoalimentar.component';
+import { LikeComentShareSalveComponent } from './pages/like-coment-share-salve/like-coment-share-salve.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,6 +48,10 @@ import { TermoDeUsoComponent } from './pages/termo-de-uso/termo-de-uso.component
     LoginComponent,
     EsqueciSenhaComponent,
     TermoDeUsoComponent,
+    FeedalimentarComponent,
+    CompulsaoalimentarComponent,
+    LikeComentShareSalveComponent,
+
   ],
   imports: [
     BrowserModule,
