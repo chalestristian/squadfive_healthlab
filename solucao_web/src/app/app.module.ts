@@ -33,6 +33,7 @@ import { SaudedamulherComponent } from './pages/aasubpages-content/alimentar/ali
 import { VidasaudavelComponent } from './pages/aasubpages-content/alimentar/alimentar-content/vidasaudavel/vidasaudavel.component';
 import { PesoquarentenaComponent } from './pages/aasubpages-content/alimentar/alimentar-content/pesoquarentena/pesoquarentena.component';
 import { Beneficiosomega3Component } from './pages/aasubpages-content/alimentar/alimentar-content/beneficiosomega3/beneficiosomega3.component';
+import { JejumComponent } from './pages/aasubpages-content/alimentar/alimentar-content/jejum/jejum.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +62,7 @@ import { Beneficiosomega3Component } from './pages/aasubpages-content/alimentar/
     VidasaudavelComponent,
     PesoquarentenaComponent,
     Beneficiosomega3Component,
+    JejumComponent,
 
   ],
   imports: [
