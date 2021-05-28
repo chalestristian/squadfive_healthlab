@@ -1,5 +1,9 @@
 <div class="container">
     <div class="row">
+        <nav>
+            <a routerLink="/cadastro" class="icones">
+                <span> <img src="../../../assets/icons/arrow_back_ios_black_24dp.svg" alt="" class="material-icons"> </span> </a>
+        </nav>
         <div class="col-sm-4">
             <mat-form-field appearance="outline">
                 <mat-label>Países</mat-label>
@@ -14,8 +18,7 @@
     <div class="row">
         <div class="col-sm-4" *ngIf="resultdayOneLive">
             <div class="card" style="width: 18rem;">
-                <img src="https://s2.glbimg.com/alVJTMnLNTPbK42da6jdKg6qxBs=/0x0:800x450/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/6/K/5UvfQKRASlBHpbe0Q6lg/foto-1-getty-images.jpg"
-                    class="card-img-top" alt="...">
+                <img src="https://s2.glbimg.com/alVJTMnLNTPbK42da6jdKg6qxBs=/0x0:800x450/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/6/K/5UvfQKRASlBHpbe0Q6lg/foto-1-getty-images.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">COVID 19 - {{resultdayOneLive.Country}}</h5>
                     <p class="card-text">Casos confirmados: {{resultdayOneLive.Cases}}</p>
