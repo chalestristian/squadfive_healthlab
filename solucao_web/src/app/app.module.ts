@@ -35,6 +35,11 @@ import { PesoquarentenaComponent } from './pages/aasubpages-content/alimentar/al
 import { Beneficiosomega3Component } from './pages/aasubpages-content/alimentar/alimentar-content/beneficiosomega3/beneficiosomega3.component';
 import { JejumComponent } from './pages/aasubpages-content/alimentar/alimentar-content/jejum/jejum.component';
 import { CarboidratosComponent } from './pages/aasubpages-content/alimentar/alimentar-content/carboidratos/carboidratos.component';
+import { AtividadefisicaesaudeComponent } from './pages/aasubpages-content/fisica/fisica-content/atividadefisicaesaude/atividadefisicaesaude.component';
+import { AtividadefisicapandemiaComponent } from './pages/aasubpages-content/fisica/fisica-content/atividadefisicapandemia/atividadefisicapandemia.component';
+import { ExerciciobeneficiosComponent } from './pages/aasubpages-content/fisica/fisica-content/exerciciobeneficios/exerciciobeneficios.component';
+import { SedentarismoComponent } from './pages/aasubpages-content/fisica/fisica-content/sedentarismo/sedentarismo.component';
+import { FisicafeedComponent } from './pages/aasubpages-content/fisica/fisicafeed/fisicafeed/fisicafeed.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +71,11 @@ import { CarboidratosComponent } from './pages/aasubpages-content/alimentar/alim
     JejumComponent,
 
     CarboidratosComponent,
+     AtividadefisicaesaudeComponent,
+     AtividadefisicapandemiaComponent,
+     ExerciciobeneficiosComponent,
+     SedentarismoComponent,
+     FisicafeedComponent,
 
   ],
   imports: [
