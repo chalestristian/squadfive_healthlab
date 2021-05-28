@@ -12,6 +12,7 @@ import { TermoDeUsoComponent } from './pages/termo-de-uso/termo-de-uso.component
 import { EsqueciSenhaComponent } from './pages/esqueci-senha/esqueci-senha.component';
 import { FeedalimentarComponent } from './pages/aasubpages-content/alimentar/feedalimentar/feedalimentar.component';
 import { CompulsaoalimentarComponent } from './pages/aasubpages-content/alimentar/alimentar-content/compulsaoalimentar/compulsaoalimentar.component';
+import { MenosacucarComponent } from './pages/aasubpages-content/alimentar/alimentar-content/menosacucar/menosacucar.component';
 
 const routes: Routes = [
   {
@@ -66,8 +67,10 @@ const routes: Routes = [
   {
     path: 'compulsaoalimentar',
     component: CompulsaoalimentarComponent,
+  }, {
+    path: 'menosacucar',
+    component: MenosacucarComponent,
   },
-
 
 ];
 

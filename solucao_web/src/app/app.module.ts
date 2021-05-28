@@ -28,6 +28,7 @@ import { TermoDeUsoComponent } from './pages/termo-de-uso/termo-de-uso.component
 import { FeedalimentarComponent } from './pages/aasubpages-content/alimentar/feedalimentar/feedalimentar.component';
 import { CompulsaoalimentarComponent } from './pages/aasubpages-content/alimentar/alimentar-content/compulsaoalimentar/compulsaoalimentar.component';
 import { LikeComentShareSalveComponent } from './pages/like-coment-share-salve/like-coment-share-salve.component';
+import { MenosacucarComponent } from './pages/aasubpages-content/alimentar/alimentar-content/menosacucar/menosacucar.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { LikeComentShareSalveComponent } from './pages/like-coment-share-salve/l
     FeedalimentarComponent,
     CompulsaoalimentarComponent,
     LikeComentShareSalveComponent,
+    MenosacucarComponent,
 
   ],
   imports: [
