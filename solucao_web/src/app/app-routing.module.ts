@@ -18,6 +18,7 @@ import { VidasaudavelComponent } from './pages/aasubpages-content/alimentar/alim
 import { PesoquarentenaComponent } from './pages/aasubpages-content/alimentar/alimentar-content/pesoquarentena/pesoquarentena.component';
 import { Beneficiosomega3Component } from './pages/aasubpages-content/alimentar/alimentar-content/beneficiosomega3/beneficiosomega3.component';
 import { JejumComponent } from './pages/aasubpages-content/alimentar/alimentar-content/jejum/jejum.component';
+import { CarboidratosComponent } from './pages/aasubpages-content/alimentar/alimentar-content/carboidratos/carboidratos.component';
 
 const routes: Routes = [
   {
@@ -96,7 +97,10 @@ const routes: Routes = [
     path: 'jejum',
     component: JejumComponent,
   },
-
+  {
+    path: 'carboidratos',
+    component: CarboidratosComponent,
+  },
 
 ];
 
