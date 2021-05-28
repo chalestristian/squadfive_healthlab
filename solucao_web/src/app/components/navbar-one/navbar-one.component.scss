@@ -7,7 +7,7 @@ a:hover{
 div{
   background-color: #F3F3F3;
   }
-  nav{
+  nav{    
     margin: 8px 0px;
     padding: 2px 0px;
     box-shadow: inset 0 0 1em #f3f3f3, 0 0 0.5em #dddddd;
@@ -32,3 +32,53 @@ div{
     border: 1px solid #402dadab;
 
   }
+  @media (min-width: 992px) {
+    .titulo {
+      font-size: 1.5em;
+    }
+    .subtitulo {
+      padding-right: 10px;
+      font-size: 1em;
+    }
+.nav-item{
+  margin: 0px 2px;
+}
+}
+  @media (min-width: 1200px) {
+    nav{    
+      padding-left: 85px;
+    }
+    .nav-link{
+      margin: 5px 0px;
+      box-shadow: none;
+    }
+  }
+  @media (min-width: 1400px) {
+    nav{    
+      padding-left: 185px;
+    }
+    
+  } 
+  @media (min-width: 1700px) { 
+    
+  }
+    
+  @media (min-width: 1900px) {
+  
+  }
+  @media (min-width: 2000px) {
+ 
+  }
+  @media (min-width: 2000px) {
+ 
+  }  
+  @media (min-width: 2500px) {
+   
+  }
+  @media (min-width: 2800px) {
+    
+  }
+  @media (min-width: 3800px) {
+
+  }
+  

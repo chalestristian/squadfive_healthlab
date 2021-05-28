@@ -20,6 +20,7 @@ import { Beneficiosomega3Component } from './pages/aasubpages-content/alimentar/
 import { JejumComponent } from './pages/aasubpages-content/alimentar/alimentar-content/jejum/jejum.component';
 import { CarboidratosComponent } from './pages/aasubpages-content/alimentar/alimentar-content/carboidratos/carboidratos.component';
 
+
 const routes: Routes = [
   {
     path: '',
