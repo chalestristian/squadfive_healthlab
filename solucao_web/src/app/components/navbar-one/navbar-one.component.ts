@@ -14,15 +14,15 @@ export class NavbarOneComponent implements OnInit {
     },
     {
       name: 'Alimentação',
-      route: '/alimentacao'
+      route: '/feedalimentar'
     },
     {
       name: 'Atividades Fisicas',
-      route: '/fisicas'
+      route: '/feedalimentar'
     },
     {
       name: 'Mental & Emocional',
-      route: '/mental-emocional'
+      route: '/feedalimentar'
     },
     {
       name: 'Covid-19',
