@@ -105,5 +105,5 @@ _Algumas atualizações no design final foram realizadas considerando a usabilid
 **2 SOLUÇÃO | APLICAÇÃO:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*\
 ![Imagem do site](https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/solucao_web/solucaoweb.png)
 
-**1.0 MOBILE:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_mobieb)*\
+**1.0 MOBILE:**  *[solução_mobile](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_mobie)*\
 ![Imagem do app](https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/solucao_mobie/app.jpeg)
