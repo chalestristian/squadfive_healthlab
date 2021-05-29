@@ -21,7 +21,7 @@ WhatsApp comercial:  [wa.me/553180273016](https://wa.me/553180273016)
 **fonte: [unibh.br/conheca-o-projeto-health-lab-4-0](https://www.unibh.br/conheca-o-projeto-health-lab-4-0/)**
 
 ---
-**NOSSO TEMA:**
+**NOSSO TEMA E RESPONSABILIDADE:**
 
 **4. APLICATIVO BEM-ESTAR E QUALIDADE DE VIDA - APP (D)**
 
@@ -46,19 +46,21 @@ Disponibilização de curtos vídeos para reflexão, práticas de meditação, t
 ---
 **NOSSA SQUAD:**
 
-Nossa squad nomeada de SquadFive (grupo 5) é composta pelos membros:
+Nossa squad nomeada de SquadFive (grupo 5) é composta pelos membros (NOME - E-MAIL - CURSO):
 
 Thales Cristian - thaleseugenio.3012@aluno.unibh.br - Ciências da Computação
+
+Julia Tavares - juliatavaresmoura@hotmail.com - Medicina
+
+Danilo Bispo - daniloservulo@gmail.com - Ciências da Computação
+
+Israel Batista - israelgomes13@hotmail.com - Ciências da Computação
+
+Benito Ricoy - benricoy@gmail.com - Ciências da Computação
 
 Pedro Frade - pedrobfrade@hotmail.com - Ciências da Computação
 
 Daniel Filho - danielfilho3011@gmail.com - Ciências da Computação
-
-Benito Ricoy - benricoy@gmail.com - Ciências da Computação
-
-Israel ... - Ciências da Computação
-
-Julia... - Medicina
 
 ---
 **NOSSO ACOMPANHAMENTO:**
@@ -82,7 +84,10 @@ Julia... - Medicina
 - [x] **PROTÓTIPO - 07/05:** 
 *[www.figma.com](https://www.figma.com/file/JAGDnKOyCxUCWpghWGuFwI/%C3%82NIMA-HEALTH-APP-MOBILE?node-id=0%3A1)*
 
-- [ ] **CONSTRUÇÃO DA SOLUÇÃO WEB - 28/05:** 
+- [x] **CONSTRUÇÃO DA SOLUÇÃO WEB - 28/05:** 
+*[link em breve]()*
+
+- [x] **CONSTRUÇÃO DA SOLUÇÃO MOBILE - 28/05:** 
 *[link em breve]()*
 
 - [ ] **VIDEO DA APRESENTAÇÃO DO PROJETO FINAL - 04/06:** 
@@ -92,8 +97,12 @@ Julia... - Medicina
 *[link em breve]()*
 ---
 # NOSSO PROJETO:
-**1.0 PROTOTIPO:**
+**1.0 PROTOTIPO:**  *[www.figma.com](https://www.figma.com/file/JAGDnKOyCxUCWpghWGuFwI/%C3%82NIMA-HEALTH-APP-MOBILE?node-id=0%3A1)*
 ![enter image description here](https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/prototipo/%C3%82NIMA%20HEALTH%20-%20APP%20-%20MOBILLE-1.png)
 
-**2.0 SOLUÇÃO WEB:**
---
+**2.0 SOLUÇÃO / APLICAÇÃO:**
+**1.0 WEB:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*
+![enter image description here](imagemvaiaqui)
+
+**1.0 MOBILE:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*
+![enter image description here](imagemvaiaqui)
