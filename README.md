@@ -85,10 +85,10 @@ _Algumas atualizações no design final foram realizadas considerando a usabilid
 *[www.figma.com](https://www.figma.com/file/JAGDnKOyCxUCWpghWGuFwI/%C3%82NIMA-HEALTH-APP-MOBILE?node-id=0%3A1)*
 
 - [x] **CONSTRUÇÃO DA SOLUÇÃO WEB - 28/05:**
-**1.0 WEB:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*
+*[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*
 
 - [x] **CONSTRUÇÃO DA SOLUÇÃO MOBILE - 28/05:** 
-*[link em breve]()*
+*[solução_mobile](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_mobie)*
 
 - [ ] **VIDEO DA APRESENTAÇÃO DO PROJETO FINAL - 04/06:** 
 *[link em breve]()*
@@ -104,5 +104,5 @@ _Algumas atualizações no design final foram realizadas considerando a usabilid
 **1.0 WEB:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*
 ![Imagem do site](https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/solucao_web/solucaoweb.png)
 
-**1.0 MOBILE:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*
-![Imagem do app](imagemvaiaqui)
+**1.0 MOBILE:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_mobieb)*
+![Imagem do app](https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/solucao_mobie/app.jpeg)
