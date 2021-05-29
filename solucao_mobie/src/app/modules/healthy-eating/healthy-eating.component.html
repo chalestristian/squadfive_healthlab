@@ -1,0 +1,27 @@
+<ion-content class="bgGeral">
+  <app-header-welcome-profile [textInfo]="'Como anda a sua alimentação,'" [name]="'Danilo Bispo?'">
+  </app-header-welcome-profile>
+  <div class="container" style="margin-top: 12px;">
+    <div class="botton-space-12">
+      <ion-slides>
+        <ion-slide *ngFor="let item of arrayImages">
+          <img class="img-carousel" [src]="item.image" alt="" srcset="" style="border: solid #aa00ff 3px;">
+        </ion-slide>
+      </ion-slides>
+    </div>
+    <div>
+      <h2 class="title-med">Dicas & Receitas</h2>
+      <ion-card style="margin-inline: 0px !important;" *ngFor="let item of news" (click)="goInfo()">
+        <img [src]="item.image" alt="" srcset="">
+        <ion-card-header>
+          <ion-card-subtitle>{{item.subtitle}}</ion-card-subtitle>
+          <ion-card-title>{{item.title}}</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          {{item.text}}
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

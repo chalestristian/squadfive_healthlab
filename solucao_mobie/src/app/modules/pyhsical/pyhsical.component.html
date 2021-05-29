@@ -1,0 +1,39 @@
+<ion-content class="bgGeral">
+  <app-header-welcome-profile [textInfo]="'Vamos praticar esportes,'" [name]="'Danilo Bispo!'"></app-header-welcome-profile>
+  <div class="container" style="margin-top: 12px;">
+    <div class="botton-space-12">
+      <ion-slides>
+        <ion-slide *ngFor="let item of arrayImages">
+          <img class="img-carousel" [src]="item.image" alt="" srcset="" style="border: solid #aa00ff 3px;">
+        </ion-slide>
+      </ion-slides>
+    </div>
+    <div>
+      <h2 class="title-med">Atividades</h2>
+      <ion-grid>
+        <ion-row>
+          <ion-col *ngFor="let item of typesMed" (click)="goInfo()">
+            <div>
+              <div class="card-med">
+                <img [src]="item.image" alt="" srcset="">
+              </div>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <h2 class="title-med">🏃🏽‍♀️ Vai caminhar?</h2>
+      <h4 class="subtitle-med">Escute está playlist especial!</h4>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <a class="btn btn-spotify w-100 txt-btn" href="https://open.spotify.com/playlist/25iqG5VUa1CCB6H6QMRC8D"><ion-icon name="musical-notes-outline"></ion-icon> SPOTIFY</a>
+          </ion-col>
+          <ion-col>
+            <a class="btn btn-danger w-100 txt-btn" href="https://music.apple.com/br/artist/musica-para-correr-especialistas/1078266890"><ion-icon name="logo-apple"></ion-icon> APPLE MUSIC</a>
+          </ion-col>
+        </ion-row>
+      </ion-grid>      
+      
+    </div>  
+  </div>  
+</ion-content>  

@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+    // box-shadow: 0 2px 10px rgb(0 0 0 / 12%);
+}
+.image-profile {
+    width: 22.5%;
+    border-radius: 25%;
+    border: 2px #000 solid;
+}
+.nameTxt {
+    font-family: "Meta Pro Book";
+    font-size: 24px;
+}
+.img-profile {
+    border-radius: 7px;
+    width: 55%;
+}
+
+.txt-span {
+    font-family: "Geomanist";
+    letter-spacing: 0.8px;
+    color: #8c8a9e;
+    font-size: 16px;
+}
+.txt-name {
+    font-family: "Geomanist";
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: #34465e;
+    font-size: 18px;
+}

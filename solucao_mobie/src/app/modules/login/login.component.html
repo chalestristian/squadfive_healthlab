@@ -1,0 +1,25 @@
+<ion-content fullscreen class="bgColor" scroll-y="false">
+  <div class="loginDiv" style="padding: 7.5%;">
+    <div class="row">
+      <div class="col-7">
+        <span class="title">Bem <br> Vindo(a)</span>
+      </div>
+    </div>
+    <div class="row login-p">
+      <mat-form-field class="col-12" appearance="outline">
+        <mat-label>E-Mail</mat-label>
+        <input matInput type="email" placeholder="Ex. cliente@email.com">
+      </mat-form-field>
+      <mat-form-field class="col-12" appearance="outline">
+        <mat-label>Senha</mat-label>
+        <input matInput [type]="hide ? 'password' : 'text'" placeholder="Ex. minhasenha08@">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+          [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+      <button [routerLink]="[ '/tabs']" mat-raised-button class="col-12" color="primary">Entrar</button> 
+      <span [routerLink]="[ '/auth/register']" class="text-center">Não possui conta? Crie agora</span>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,85 @@
+<ion-content fullscreen class="bgColor">
+  <div class="loginDiv" style="padding: 5.5%;">
+    <div class="row">
+      <div class="col-7">
+        <span class="title">Registrar <br> Conta</span>
+      </div>
+      <div class="col-5">
+        <div class="box" (click)="imageBrandInput.click()" matBadgePosition="after" matBadgeColor="accent">
+          <img *ngIf="imgURL != null" [src]="imgURL" alt="" srcset=""
+            style="width: 80px; height: 80px; border-radius: 25%;">
+          <img style="border-radius: 25%;" *ngIf="imgURL == null"
+            src="https://previews.123rf.com/images/rastudio/rastudio1607/rastudio160701087/59308806-user-profile-with-plus-sign-vector-sketch-icon-isolated-on-background-hand-drawn-user-profile-with-p.jpg"
+            alt="" srcset="">
+        </div>
+      </div>
+    </div>
+
+    <mat-vertical-stepper [linear]="isLinear" #stepper>
+      <input type='file' hidden #imageBrandInput accept='image/*' (change)="onSelectFile($event)">
+      <mat-step [stepControl]="firstFormGroup">
+        <ng-template matStepLabel>Dados</ng-template>
+        <mat-form-field class="col-12" appearance="outline">
+          <mat-label>Nome</mat-label>
+          <input matInput type="text" placeholder="Ex. John Doe">
+        </mat-form-field>
+        <mat-form-field class="col-12" appearance="outline">
+          <mat-label>CPF</mat-label>
+          <input matInput type="text" mask="000.000.000-00" placeholder="Ex. 000.000.000-00">
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperNext color="accent">Avançar</button>
+        </div>
+      </mat-step>
+      <mat-step [stepControl]="secondFormGroup">
+
+        <ng-template matStepLabel>Contatos</ng-template>
+        <mat-form-field class="col-12" appearance="outline">
+          <mat-label>Celular</mat-label>
+          <input matInput type="tel" mask="(00) 00000-0000" placeholder="Ex. (99) 99999-9999">
+        </mat-form-field>
+        <mat-form-field class="col-12" appearance="outline">
+          <mat-label>E-Mail</mat-label>
+          <input matInput type="email" placeholder="Ex. cliente@email.com">
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Voltar</button>
+          <button mat-button matStepperNext color="accent">Avançar</button>
+        </div>
+
+      </mat-step>
+      <mat-step>
+        <ng-template matStepLabel>Acessos</ng-template>
+        <mat-form-field class="col-12" appearance="outline">
+          <mat-label>Senha</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" placeholder="Ex. minhasenha08@">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+        <mat-form-field class="col-12" appearance="outline">
+          <mat-label>Confirma Senha</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" placeholder="Ex. minhasenha08@">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+        <button mat-button matStepperPrevious>Voltar</button>
+        <button mat-button matStepperNext color="accent">Avançar</button>
+      </mat-step>
+      <mat-step>
+        <ng-template matStepLabel>Termos e Condições</ng-template>
+        <mat-checkbox>Concordo com os <strong>Termos & Condições</strong></mat-checkbox> 
+        <div>
+          <button mat-button matStepperPrevious>Voltar</button>
+        </div>
+      </mat-step>
+    </mat-vertical-stepper>
+    <div class="row login-p">
+      <button [routerLink]="[ '/tabs']" mat-raised-button class="col-12" color="primary">Registar</button> 
+      <span [routerLink]="[ '/auth']" class="text-center">Já possui conta? Entre agora</span>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "app-unibh-medical",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

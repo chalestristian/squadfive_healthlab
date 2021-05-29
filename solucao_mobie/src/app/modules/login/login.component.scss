@@ -1,0 +1,34 @@
+.bgColor {
+    --background: url("https://i.pinimg.com/736x/2a/5a/f9/2a5af948ba4577ebaac8fc68395b0f2a.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.loginDiv {
+    margin-top: 32%;
+    height: 82%;
+    width: 100%;
+    background-color: #edf8fd;
+    opacity: 0.86;
+    border-radius: 10px;
+}
+
+.login-p {
+    margin-top: 25%;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 25%;
+    float: right;
+}
+
+.title {
+    font-family: "Meta Pro Cond Black";
+    letter-spacing: 1.6px;
+    line-height: 40px;
+    font-size: xx-large;
+}

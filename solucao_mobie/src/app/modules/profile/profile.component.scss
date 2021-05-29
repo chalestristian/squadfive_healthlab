@@ -1,0 +1,27 @@
+.profile {
+    border-radius: 50%;
+    margin-top: -20%;
+    box-shadow: 0 10px 20px rgba(26, 35, 47, 0.19), 0 6px 6px rgba(26, 35, 47, 0.23);
+    margin-bottom: 10%;
+}
+.card-profile {
+    width: 100%;
+    height: 230px;
+    margin-top: 25%;
+    background-color: #663dff;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    border-radius: 7px;
+    box-shadow: 0 10px 20px rgba(26, 35, 47, 0.19), 0 6px 6px rgba(26, 35, 47, 0.23);
+    margin-bottom: 30px;
+}
+span {
+    font-family: "GeomanistItalic";
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+ion-item {
+    --background: transparent;
+}

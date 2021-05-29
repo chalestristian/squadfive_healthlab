@@ -1,0 +1,33 @@
+.bgColor {
+    --background: url('https://images.unsplash.com/photo-1560582861-45078880e48e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVkaWNhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.loginDiv {
+    margin-top: 10%;
+    height: 115%;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.84;
+    border-radius: 10px;
+}
+
+.login-p {
+    margin-top: 12.5%;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    border-radius: 25%;
+    float: right;
+}
+
+.title {
+    font-size: 40px;
+    font-family: "Meta Pro Cond Black";
+    letter-spacing: 1.6px;
+    line-height: 40px;
+}

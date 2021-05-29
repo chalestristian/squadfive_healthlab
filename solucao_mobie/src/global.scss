@@ -1,0 +1,123 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import "~@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+// @import "~bootstrap/dist/css/bootstrap.min.css";
+
+// @import "~slider-carousel/slider-carousel.scss";
+// @include slider-carousel();
+
+.carousel-container {
+    border-radius: 25px !important;
+    -webkit-box-shadow: 0px 0px 32px -8px rgba(112, 144, 176, 1);
+    -moz-box-shadow: 0px 0px 32px -8px rgba(112, 144, 176, 1);
+    box-shadow: 0px 0px 32px -8px rgba(112, 144, 176, 1);
+}
+
+.BottomSheetBox {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+}
+.imgNot {
+    width: 50%;
+}
+.imgNotTwo {
+    width: 35%;
+}
+.txt-center {
+    text-align: center;
+}
+.botton-space-12 {
+    margin-bottom: 12px;
+}
+.img-carousel {
+    border-radius: 7px;
+}
+.bgGeral {
+    --background: #e5f5f5 !important;
+}
+.txt-btn {
+    font-family: "Geomanist";
+    color: #1e1e1e;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.title-med {
+    font-family: "Geomanist";
+    color: #34465e;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 0 0px !important;
+}
+.subtitle-med {
+    font-family: "GeomanistItalic";
+    color: #8c8a9e;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 0 0px !important;
+}
+ion-grid {
+    margin-bottom: 20px;
+}
+
+//
+.card-med {
+    width: 80px;
+    height: 80px;
+    background-color: #663dff;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+
+    border-radius: 7px;
+    box-shadow: 0 10px 20px rgba(26, 35, 47, 0.19), 0 6px 6px rgba(26, 35, 47, 0.23);
+    text-align: center;
+    img {
+        border-radius: 7px;
+        border: solid #aa00ff 3px;
+    }
+}
+//
+
+.txt-btn {
+    font-family: "Geomanist";
+    color: #34465e;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-spotify {
+    background-color: #1db954 !important;
+    color: #fff !important;
+}
+
+.txt-p {
+    font-family: "Geomanist";
+    color: #34465e;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: justify;
+}
