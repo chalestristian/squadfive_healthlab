@@ -86,7 +86,7 @@ _Algumas atualizações no design final foram realizadas considerando a usabilid
 
 - [x] **CONSTRUÇÃO DA SOLUÇÃO WEB - 28/05:**
 **1.0 WEB:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*
-![enter image description here](imagemvaiaqui)
+![enter image description here](https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/solucao_web/solucaoweb.png)
 
 - [x] **CONSTRUÇÃO DA SOLUÇÃO MOBILE - 28/05:** 
 *[link em breve]()*
