@@ -74,7 +74,7 @@ Daniel Filho - danielfilho3011@gmail.com - Ciências da Computação
 
 2. Construção da solução Web (15 pontos) - 28/05/2021  
 
-3. Vídeo da apresentação do projeto final (5 pontos) - 04/06/2021 
+3. Vídeo da apresentação do projeto final (5 pontos) - 11/06/2021 
 
 4. Avaliação 360º (5 pontos) - 11/06/2021
 
@@ -92,18 +92,18 @@ _Algumas atualizações no design final foram realizadas considerando a usabilid
 - [x] **CONSTRUÇÃO DA SOLUÇÃO MOBILE - 28/05:** 
 *[solução_mobile](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_mobie)*
 
-- [ ] **VIDEO DA APRESENTAÇÃO DO PROJETO FINAL - 04/06:** 
-*[link em breve]()*
+- [x] **VIDEO DA APRESENTAÇÃO DO PROJETO FINAL - 11/06:** 
+[![Health Lab - SquadFive Video](...)](https://youtu.be/pDfMb486Ib4)
 
-- [ ] **AVALIAÇÃO 360º - 11/06:** 
-*[link em breve]()*
+- [x] **AVALIAÇÃO 360º - 11/06:** 
+
 ---
 # NOSSO PROJETO:
 **1 PROTOTIPO:**  *[www.figma.com](https://www.figma.com/file/JAGDnKOyCxUCWpghWGuFwI/%C3%82NIMA-HEALTH-APP-MOBILE?node-id=0%3A1)*\
 ![Imagem do prototipo](https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/prototipo/%C3%82NIMA%20HEALTH%20-%20APP%20-%20MOBILLE-1.png)
 
-**2 SOLUÇÃO | APLICAÇÃO:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*\
+**2 SOLUÇÃO | APLICAÇÃO WEB:**  *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*\
 ![Imagem do site](https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/solucao_web/solucaoweb.png)
 
-**1.0 MOBILE:**  *[solução_mobile](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_mobie)*\
+**1.0 SOLUÇÃO | APLICAÇÃO MOBILE:**  *[solução_mobile](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_mobie)*\
 ![Imagem do app](https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/solucao_mobie/app.jpeg)
