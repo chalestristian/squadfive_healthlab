@@ -84,17 +84,20 @@ Daniel Filho - danielfilho3011@gmail.com - Ciências da Computação
 _Algumas atualizações no design final foram realizadas considerando a usabilidade e necessidade do usuario._
 
 - [x] **PROTÓTIPO - 07/05:** 
+
 *[www.figma.com](https://www.figma.com/file/JAGDnKOyCxUCWpghWGuFwI/%C3%82NIMA-HEALTH-APP-MOBILE?node-id=0%3A1)*
 
 - [x] **CONSTRUÇÃO DA SOLUÇÃO WEB - 28/05:**
+
 *[solução_web](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_web)*
 
 - [x] **CONSTRUÇÃO DA SOLUÇÃO MOBILE - 28/05:** 
+
 *[solução_mobile](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_mobie)*
 
 - [x] **VIDEO DA APRESENTAÇÃO DO PROJETO FINAL - 11/06: (Youtube & Vimeo)** 
-*[![Youtube video]](https://youtu.be/pDfMb486Ib4)*
 
+*[![Youtube video]](https://youtu.be/pDfMb486Ib4)*
 *[![Vimeo video "pode ser que tenha perda na qualidade"]](https://vimeo.com/559490252)*
 
 
