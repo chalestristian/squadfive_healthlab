@@ -93,7 +93,7 @@ _Algumas atualizações no design final foram realizadas considerando a usabilid
 *[solução_mobile](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_mobie)*
 
 - [x] **VIDEO DA APRESENTAÇÃO DO PROJETO FINAL - 11/06:** 
-[![Health Lab - SquadFive Video](...)](https://youtu.be/pDfMb486Ib4)
+[![Health Lab - SquadFive Video](https://raw.githubusercontent.com/chalestristian/squadfive_healthlab/master/video/tumb.png)](https://youtu.be/pDfMb486Ib4)
 
 - [x] **AVALIAÇÃO 360º - 11/06:** 
 
