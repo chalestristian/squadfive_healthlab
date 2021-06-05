@@ -97,9 +97,7 @@ _Algumas atualizações no design final foram realizadas considerando a usabilid
 
 - [x] **VIDEO DA APRESENTAÇÃO DO PROJETO FINAL - 11/06: (Youtube & Vimeo)** 
 
-*[Youtube video |](https://youtu.be/pDfMb486Ib4)*
-
-*[ Vimeo video](https://vimeo.com/559490252)*
+*[Youtube video](https://youtu.be/pDfMb486Ib4)* | *[ Vimeo video](https://vimeo.com/559490252)*
 
 
 
