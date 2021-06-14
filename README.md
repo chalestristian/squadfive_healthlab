@@ -76,7 +76,7 @@ Daniel Filho - danielfilho3011@gmail.com - Ciências da Computação
 
 3. Vídeo da apresentação do projeto final (5 pontos) - 18/06/2021 
 
-4. Avaliação 360º (5 pontos) - 18/06/2021
+4. Avaliação 360º (5 pontos) - 25/06/2021
 
 ---
 **NOSSA ENTREGA :**
