@@ -74,9 +74,9 @@ Daniel Filho - danielfilho3011@gmail.com - Ciências da Computação
 
 2. Construção da solução Web (15 pontos) - 28/05/2021  
 
-3. Vídeo da apresentação do projeto final (5 pontos) - 11/06/2021 
+3. Vídeo da apresentação do projeto final (5 pontos) - 18/06/2021 
 
-4. Avaliação 360º (5 pontos) - 11/06/2021
+4. Avaliação 360º (5 pontos) - 18/06/2021
 
 ---
 **NOSSA ENTREGA :**
@@ -95,13 +95,11 @@ _Algumas atualizações no design final foram realizadas considerando a usabilid
 
 *[solução_mobile](https://github.com/chalestristian/squadfive_healthlab/tree/master/solucao_mobie)*
 
-- [x] **VIDEO DA APRESENTAÇÃO DO PROJETO FINAL - 11/06: (Youtube & Vimeo)** 
+- [x] **VIDEO DA APRESENTAÇÃO DO PROJETO FINAL - 18/06: (Youtube & Vimeo)** 
 
 *[Youtube video](https://youtu.be/pDfMb486Ib4)* | *[ Vimeo video](https://vimeo.com/559490252)*
 
-
-
-- [x] **AVALIAÇÃO 360º - 11/06:** 
+- [x] **AVALIAÇÃO 360º - 25/06:** 
 
 ---
 # NOSSO PROJETO:
