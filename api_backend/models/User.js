@@ -16,11 +16,11 @@ module.exports = (sequelize, Sequelize) => {
     },
     altura: {
       allowNull: false,
-      type: Sequelize.INTEGER,
+      type: Sequelize.DOUBLE,
     },
     peso: {
       allowNull: false,
-      type: Sequelize.INTEGER,
+      type: Sequelize.DOUBLE,
     },
     sexo: {
       allowNull: false,
