@@ -17,5 +17,5 @@ routes.post('/conteudos', ConteudoController.create);
 routes.put('/conteudos/:id', ConteudoController.update);
 routes.delete('/conteudos/:id', ConteudoController.delete);
 
-
 module.exports = routes;
+
