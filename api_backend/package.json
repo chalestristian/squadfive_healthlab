@@ -4,9 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "swagger-autogen": "node swagger.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "swagger-autogen": "^2.10.2",
+    "swagger-node": "^0.8.4",
+    "swagger-node-express": "^2.1.3",
+    "swagger-ui-express": "^4.1.6"
+  }
 }

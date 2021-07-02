@@ -1,0 +1,904 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "API HEALTHLAB",
+    "description": "Essa documentação contem todas as rotas da api"
+  },
+  "host": "localhost:3000/documentacao",
+  "basePath": "/",
+  "tags": [],
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "securityDefinitions": {
+    "apiKeyAuth": {}
+  },
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "ROTA PRINCIPAL / INDEX"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/usuarios": {
+      "get": {
+        "tags": [
+          "ROTA USUARIO"
+        ],
+        "description": "Método responsável por retornar todos os usuários.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK - Usuarios retornados com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 1
+                },
+                "nome": {
+                  "type": "string",
+                  "example": "Bruna Marques"
+                },
+                "email": {
+                  "type": "string",
+                  "example": "brunam&m@gmail.com"
+                },
+                "senha": {
+                  "type": "string",
+                  "example": "Macarronada"
+                },
+                "altura": {
+                  "type": "number",
+                  "example": 1.3
+                },
+                "peso": {
+                  "type": "number",
+                  "example": 65
+                },
+                "sexo": {
+                  "type": "string",
+                  "example": "Feminino"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: Os usuários não foram retornados por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "Os usuários não foram retornados pois não existem."
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ROTA USUARIO"
+        ],
+        "description": "Método responsável pela criação dos usuários.",
+        "parameters": [
+          {
+            "name": "obj",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "nome": {
+                  "example": "any"
+                },
+                "email": {
+                  "example": "any"
+                },
+                "senha": {
+                  "example": "any"
+                },
+                "altura": {
+                  "example": "any"
+                },
+                "peso": {
+                  "example": "any"
+                },
+                "sexo": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Usuario criado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 4
+                },
+                "nome": {
+                  "type": "string",
+                  "example": "Gabriel Santos"
+                },
+                "email": {
+                  "type": "string",
+                  "example": "santosgabriel@email.com"
+                },
+                "senha": {
+                  "type": "string",
+                  "example": "ThisIsAPassWord"
+                },
+                "altura": {
+                  "type": "number",
+                  "example": 1.87
+                },
+                "peso": {
+                  "type": "number",
+                  "example": 86.25
+                },
+                "sexo": {
+                  "type": "string",
+                  "example": "Masculino"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O usuário não foi criado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "409": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "409 Conflict"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O usuário não foi criado pois já existe."
+          }
+        }
+      }
+    },
+    "/usuarios/{id}": {
+      "get": {
+        "tags": [
+          "ROTA USUARIO"
+        ],
+        "description": "Método responsável por retornar um usuario específico com base no ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Usuario {id} retornado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 2
+                },
+                "nome": {
+                  "type": "string",
+                  "example": "Thales Cristian"
+                },
+                "email": {
+                  "type": "string",
+                  "example": "thalezzz@teste.com"
+                },
+                "senha": {
+                  "type": "string",
+                  "example": "Password"
+                },
+                "altura": {
+                  "type": "number",
+                  "example": 1.85
+                },
+                "peso": {
+                  "type": "number",
+                  "example": 80
+                },
+                "sexo": {
+                  "type": "string",
+                  "example": "Masculino"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: Usuário não retornado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O usuário não foi retornado pois não existe."
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ROTA USUARIO"
+        ],
+        "description": "Método responsável por atualizar algum(s) dado(s) de algum usuario em específico com base no ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Dado(s) do usuario {id} atualizado(s) com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 2
+                },
+                "nome": {
+                  "type": "string",
+                  "example": "Thales Cristian"
+                },
+                "email": {
+                  "type": "string",
+                  "example": "thalezzz@teste.com"
+                },
+                "senha": {
+                  "type": "string",
+                  "example": "ThisIsMyNewPassWord"
+                },
+                "altura": {
+                  "type": "number",
+                  "example": 1.85
+                },
+                "peso": {
+                  "type": "number",
+                  "example": 80
+                },
+                "sexo": {
+                  "type": "string",
+                  "example": "Masculino"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: Dado(s) do usuário não atualizado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O(s) dado(s) do usuário não foi atualizado pois não existe."
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ROTA USUARIO"
+        ],
+        "description": "Método responsável por deletar um usuário em específico com base no ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Usuario deletado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 3
+                },
+                "nome": {
+                  "type": "string",
+                  "example": "Alan Matos"
+                },
+                "email": {
+                  "type": "string",
+                  "example": "alanzoca@teste.com"
+                },
+                "senha": {
+                  "type": "string",
+                  "example": "Naoseiminhasenha"
+                },
+                "altura": {
+                  "type": "number",
+                  "example": 1.82
+                },
+                "peso": {
+                  "type": "number",
+                  "example": 75.2
+                },
+                "sexo": {
+                  "type": "string",
+                  "example": "Masculino"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: Usuário não deletado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "Usuário não pode ser deletado pois não existe."
+          }
+        }
+      }
+    },
+    "/conteudos": {
+      "get": {
+        "tags": [
+          "ROTA CONTEUDOS"
+        ],
+        "description": "Método responsável por retornar todos os conteudos.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK - Conteudos retornados com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 2
+                },
+                "titulo": {
+                  "type": "string",
+                  "example": "Programação web"
+                },
+                "subtitulo": {
+                  "type": "string",
+                  "example": "É muito mais do que HTML, CSS e JS"
+                },
+                "autor": {
+                  "type": "string",
+                  "example": "Miguel Eugenio"
+                },
+                "resumo": {
+                  "type": "string",
+                  "example": "Ainda existem pessoas que acham que a programação web é apenas HTML, CSS, JS."
+                },
+                "descricao": {
+                  "type": "string",
+                  "example": "Imagine que essa seja a postagem super descritiva"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O conteudo não foi retornado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "Os conteudos não foram retornados pois não existem conteudos."
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ROTA CONTEUDOS"
+        ],
+        "description": "Método responsável pela criação dos conteudos.",
+        "parameters": [
+          {
+            "name": "obj",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "titulo": {
+                  "example": "any"
+                },
+                "subtitulo": {
+                  "example": "any"
+                },
+                "autor": {
+                  "example": "any"
+                },
+                "resumo": {
+                  "example": "any"
+                },
+                "descricao": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Conteudo criado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 1
+                },
+                "titulo": {
+                  "type": "string",
+                  "example": "Sistemas Distribuidos"
+                },
+                "subtitulo": {
+                  "type": "string",
+                  "example": "Entenda tudo sobre esse modelo"
+                },
+                "autor": {
+                  "type": "string",
+                  "example": "Thales Cristian"
+                },
+                "resumo": {
+                  "type": "string",
+                  "example": "Você sabe oque é um sistema distribuido?"
+                },
+                "descricao": {
+                  "type": "string",
+                  "example": "Imagine que essa seja a postagem super descritiva"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O conteudo não foi criado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "409": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "409 Conflict"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O conteudo não foi criado pois já existe."
+          }
+        }
+      }
+    },
+    "/conteudos/{id}": {
+      "get": {
+        "tags": [
+          "ROTA CONTEUDOS"
+        ],
+        "description": "Método responsável por retornar um conteudo específico com base no ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Conteudo retornado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 4
+                },
+                "titulo": {
+                  "type": "string",
+                  "example": "LInguagem Java"
+                },
+                "subtitulo": {
+                  "type": "string",
+                  "example": "O qual horrível essa linguagem é?"
+                },
+                "autor": {
+                  "type": "string",
+                  "example": "Bruno Joaquim"
+                },
+                "resumo": {
+                  "type": "string",
+                  "example": "Se você gosta de Java, saia já do meu blog."
+                },
+                "descricao": {
+                  "type": "string",
+                  "example": "Imagine que essa seja a postagem super critica"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O conteudo não foi retornado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O conteudo não foi retornado pois não existe."
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ROTA CONTEUDOS"
+        ],
+        "description": "Método responsável por atualizar algum(s) dado(s) de algum conteudo em específico com base no ID..",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Conteudo atualizado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 4
+                },
+                "titulo": {
+                  "type": "string",
+                  "example": "Linguagem Java"
+                },
+                "subtitulo": {
+                  "type": "string",
+                  "example": "Brincadeirinha, apesar de não ser um grande fã, eu compreendo a importância do Java para o mundo da programação."
+                },
+                "autor": {
+                  "type": "string",
+                  "example": "Bruno Joaquim"
+                },
+                "resumo": {
+                  "type": "string",
+                  "example": "Esse blog é para todos que amam programar."
+                },
+                "descricao": {
+                  "type": "string",
+                  "example": "Imagine que essa seja a postagem super comprensiva sobre a linguagem java (não quero ser cancelado)"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O conteudo não foi atualizado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O conteudo não foi atualizado pois não existe."
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ROTA CONTEUDOS"
+        ],
+        "description": "Método responsável por deletar um conteudo em específico com base no ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Conteudo deletado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 4
+                },
+                "titulo": {
+                  "type": "string",
+                  "example": "Linguagem Java"
+                },
+                "subtitulo": {
+                  "type": "string",
+                  "example": "Brincadeirinha, apesar de não ser um grande fã, eu compreendo a importância do Java para o mundo da programação."
+                },
+                "autor": {
+                  "type": "string",
+                  "example": "Bruno Joaquim"
+                },
+                "resumo": {
+                  "type": "string",
+                  "example": "Esse blog é para todos que amam programar."
+                },
+                "descricao": {
+                  "type": "string",
+                  "example": "Imagine que essa seja a postagem super comprensiva sobre a linguagem java (não quero ser cancelado)"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O conteudo não foi deletado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O conteudo não foi deletado pois não existe."
+          }
+        }
+      }
+    }
+  },
+  "definitions": {}
+}
