@@ -20,7 +20,6 @@ class ConteudoController {
       return res.status(400).json({ error: err.mesage });
     }
   }
-
   async getAll(req, res) {
     try {
       const conteudo = await Conteudo.findAll({
