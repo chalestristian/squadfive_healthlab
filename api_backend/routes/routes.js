@@ -8,8 +8,9 @@ const routes = Router();
 
 routes.get('/', (req, res) => {
   // #swagger.tags = ['ROTA PRINCIPAL / INDEX'] 
-  res.status(200).json({ mensagem: 'Não tem nada por aqui :) | Para mais informações, acesse a documentação em /documentacao.' })
+  res.status(200).json({ mensagem: 'Não tem nada por aqui :) | Para mais informações, acesse a documentação em /documentacao' })
 });
+
 
 /* --------------- ROTAS USUARIOS --------------- */
 routes.get('/usuarios', UsuarioController.getAll);
