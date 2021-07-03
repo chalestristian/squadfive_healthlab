@@ -39,7 +39,7 @@
     "/usuarios": {
       "get": {
         "tags": [
-          "ROTA USUARIO"
+          "ROTA USUARIOS"
         ],
         "description": "Método responsável por retornar todos os usuários.",
         "parameters": [],
@@ -117,7 +117,7 @@
       },
       "post": {
         "tags": [
-          "ROTA USUARIO"
+          "ROTA USUARIOS"
         ],
         "description": "Método responsável pela criação dos usuários.",
         "parameters": [
@@ -225,7 +225,7 @@
     "/usuarios/{id}": {
       "get": {
         "tags": [
-          "ROTA USUARIO"
+          "ROTA USUARIOS"
         ],
         "description": "Método responsável por retornar um usuario específico com base no ID.",
         "parameters": [
@@ -310,7 +310,7 @@
       },
       "put": {
         "tags": [
-          "ROTA USUARIO"
+          "ROTA USUARIOS"
         ],
         "description": "Método responsável por atualizar algum(s) dado(s) de algum usuario em específico com base no ID.",
         "parameters": [
@@ -395,7 +395,7 @@
       },
       "delete": {
         "tags": [
-          "ROTA USUARIO"
+          "ROTA USUARIOS"
         ],
         "description": "Método responsável por deletar um usuário em específico com base no ID.",
         "parameters": [
@@ -895,6 +895,728 @@
               }
             },
             "description": "O conteudo não foi deletado pois não existe."
+          }
+        }
+      }
+    },
+    "/tags": {
+      "get": {
+        "tags": [
+          "ROTA TAGS"
+        ],
+        "description": "Método responsável por retornar todas as tags.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK - Tags retornadas com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 2
+                },
+                "tag_nome": {
+                  "type": "string",
+                  "example": "Saude Física"
+                },
+                "tag_descricao": {
+                  "type": "string",
+                  "example": "Tudo que envolver a saude fisica será setado com essa tag"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: As tags não foram retornadas por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "As tags não foram retornadas pois não existem."
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ROTA TAGS"
+        ],
+        "description": "Método responsável pela criação de tags.",
+        "parameters": [
+          {
+            "name": "obj",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "tag_nome": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Tag criada com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 4
+                },
+                "tag_nome": {
+                  "type": "string",
+                  "example": "Saude Emocional"
+                },
+                "tag_descricao": {
+                  "type": "string",
+                  "example": "Tudo que envolver a saude emocional será setado com essa tag"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: A tag não foi criada por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "409": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "409 Conflict"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "A tag não foi criada pois já existe."
+          }
+        }
+      }
+    },
+    "/tags/{id}": {
+      "get": {
+        "tags": [
+          "ROTA TAGS"
+        ],
+        "description": "Método responsável por retornar uma tag específico com base no ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Tag {id} retornada com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 4
+                },
+                "tag_nome": {
+                  "type": "string",
+                  "example": "Saude Emocional"
+                },
+                "tag_descricao": {
+                  "type": "string",
+                  "example": "Tudo que envolver a saude emocional será setado com essa tag"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: Tag não retornada por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "A tag não foi retornada pois não existe."
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ROTA TAGS"
+        ],
+        "description": "Método responsável por atualizar algum(s) dado(s) de alguma tag em específico com base no ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Dado(s) da tag {id} atualizado(s) com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 2
+                },
+                "tag_nome": {
+                  "type": "string",
+                  "example": "Saude Física"
+                },
+                "tag_descricao": {
+                  "type": "string",
+                  "example": "Eessa descrição foi atualizada"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: Dado(s) da tag não atualizado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O(s) dado(s) da tag não foi atualizado pois não existe."
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ROTA TAGS"
+        ],
+        "description": "Método responsável por deletar uma tag em específico com base no ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Tag deletada com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 2
+                },
+                "tag_nome": {
+                  "type": "string",
+                  "example": "Saude Física"
+                },
+                "tag_descricao": {
+                  "type": "string",
+                  "example": "Tudo que envolver a saude fisica será setado com essa tag"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: Tag não deletada por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "Tag não pode ser deletada pois não existe."
+          }
+        }
+      }
+    },
+    "/comentarios": {
+      "get": {
+        "tags": [
+          "ROTA COMENTARIOS"
+        ],
+        "description": "Método responsável por retornar todos os comentarios.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK - Comentarios retornados com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 2
+                },
+                "conteudo_id": {
+                  "type": "number",
+                  "example": 568
+                },
+                "usuario_id": {
+                  "type": "number",
+                  "example": 465
+                },
+                "comentario_descricao": {
+                  "type": "string",
+                  "example": "Um novo comentario de um novo usuario"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O comentario não foi retornado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O comentario não foi retornado pois não existe comentarios."
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ROTA COMENTARIOS"
+        ],
+        "description": "Método responsável pela criação dos comentarios.",
+        "parameters": [
+          {
+            "name": "obj",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "conteudo_id": {
+                  "example": "any"
+                },
+                "usuario_id": {
+                  "example": "any"
+                },
+                "comentario_descricao": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Comentarios criado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 3
+                },
+                "conteudo_id": {
+                  "type": "number",
+                  "example": 568
+                },
+                "usuario_id": {
+                  "type": "number",
+                  "example": 465
+                },
+                "comentario_descricao": {
+                  "type": "string",
+                  "example": "Um comentario de um comentario de um usuario"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O comentario não foi criado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "409": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "409 Conflict"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O comentario não foi criado pois já existe."
+          }
+        }
+      }
+    },
+    "/comentarios/{id}": {
+      "get": {
+        "tags": [
+          "ROTA COMENTARIOS"
+        ],
+        "description": "Método responsável por retornar um comentario específico com base no ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Comentario retornado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 1
+                },
+                "conteudo_id": {
+                  "type": "number",
+                  "example": 325
+                },
+                "usuario_id": {
+                  "type": "number",
+                  "example": 45
+                },
+                "comentario_descricao": {
+                  "type": "string",
+                  "example": "Esse é um comentario postado por um usuario incrível."
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O comentario não foi retornado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O comentario não foi retornado pois não existe."
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ROTA COMENTARIOS"
+        ],
+        "description": "Método responsável por atualizar algum(s) dado(s) de algum comentario em específico com base no ID..",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Comentario atualizado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 1
+                },
+                "conteudo_id": {
+                  "type": "number",
+                  "example": 325
+                },
+                "usuario_id": {
+                  "type": "number",
+                  "example": 45
+                },
+                "comentario_descricao": {
+                  "type": "string",
+                  "example": "Esse comentario foi atualizado pelo usuario incrível."
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O comentario não foi atualizado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O comentario não foi atualizado pois não existe."
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ROTA COMENTARIOS"
+        ],
+        "description": "Método responsável por deletar um comentario em específico com base no ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Comentario deletado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "example": 3
+                },
+                "conteudo_id": {
+                  "type": "number",
+                  "example": 568
+                },
+                "usuario_id": {
+                  "type": "number",
+                  "example": 465
+                },
+                "comentario_descricao": {
+                  "type": "string",
+                  "example": "Um comentario de um comentario de um usuario"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "ERRO: O comentario não foi deletado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "404": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "404 Not Found"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "O comentario não foi deletado pois não existe."
           }
         }
       }

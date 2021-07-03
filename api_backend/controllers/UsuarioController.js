@@ -3,7 +3,7 @@ const { Op, DOUBLE } = require("sequelize");
 
 class UsuarioController {
   async create(req, res) {
-    // #swagger.tags = ['ROTA USUARIO']
+    // #swagger.tags = ['ROTA USUARIOS']
     // #swagger.description = 'Método responsável pela criação dos usuários.'
     /* #swagger.responses[200] = {
         schema: {
@@ -42,7 +42,7 @@ class UsuarioController {
     }
   }
   async getAll(req, res) {
-    // #swagger.tags = ['ROTA USUARIO']
+    // #swagger.tags = ['ROTA USUARIOS']
     // #swagger.description = 'Método responsável por retornar todos os usuários.'
     /* #swagger.responses[200] = {
         schema: {
@@ -76,7 +76,7 @@ class UsuarioController {
     }
   }
   async getOne(req, res) {
-    // #swagger.tags = ['ROTA USUARIO']
+    // #swagger.tags = ['ROTA USUARIOS']
     // #swagger.description = 'Método responsável por retornar um usuario específico com base no ID.'
     /* #swagger.responses[200] = {
         schema: {
@@ -113,7 +113,7 @@ class UsuarioController {
     }
   }
   async update(req, res) {
-    // #swagger.tags = ['ROTA USUARIO']
+    // #swagger.tags = ['ROTA USUARIOS']
     // #swagger.description = 'Método responsável por atualizar algum(s) dado(s) de algum usuario em específico com base no ID.'
     /* #swagger.responses[200] = {
         schema: {
@@ -151,7 +151,7 @@ class UsuarioController {
     }
   }
   async delete(req, res) {
-    // #swagger.tags = ['ROTA USUARIO']
+    // #swagger.tags = ['ROTA USUARIOS']
     // #swagger.description = 'Método responsável por deletar um usuário em específico com base no ID.'
     /* #swagger.responses[200] = {
         schema: {
