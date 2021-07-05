@@ -36,6 +36,85 @@
         }
       }
     },
+    "/login": {
+      "post": {
+        "tags": [
+          "ROTA LOGIN"
+        ],
+        "description": "Método responsável pela criação do token para validação.",
+        "parameters": [
+          {
+            "name": "obj",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "user": {
+                  "example": 1
+                },
+                "senha": {
+                  "example": 123
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK - Token criado com sucesso.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "auth": {
+                  "type": "boolean",
+                  "example": true
+                },
+                "token": {
+                  "type": "string",
+                  "example": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjI1NDQwMjM2LCJleHAiOjE2MjU0NDA1MzZ9.lte3isl3b93Kk0nX2ZXhh7CDQ9EgC4gdaFU_qUGMoo"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "O token não foi criado por função a erro.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "400 Bad Request"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "401": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "mensagem": {
+                  "type": "string",
+                  "example": "401 Unauthorized"
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            },
+            "description": "ERRO: Credenciais erradas."
+          }
+        }
+      }
+    },
     "/usuarios": {
       "get": {
         "tags": [
@@ -97,6 +176,9 @@
                 "name": "main"
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
           },
           "404": {
             "schema": {
@@ -204,6 +286,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "409": {
             "schema": {
               "type": "object",
@@ -291,6 +376,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "404": {
             "schema": {
               "type": "object",
@@ -375,6 +463,9 @@
                 "name": "main"
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
           },
           "404": {
             "schema": {
@@ -461,6 +552,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "404": {
             "schema": {
               "type": "object",
@@ -536,6 +630,9 @@
                 "name": "main"
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
           },
           "404": {
             "schema": {
@@ -636,6 +733,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "409": {
             "schema": {
               "type": "object",
@@ -719,6 +819,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "404": {
             "schema": {
               "type": "object",
@@ -799,6 +902,9 @@
                 "name": "main"
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
           },
           "404": {
             "schema": {
@@ -881,6 +987,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "404": {
             "schema": {
               "type": "object",
@@ -944,6 +1053,9 @@
                 "name": "main"
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
           },
           "404": {
             "schema": {
@@ -1020,6 +1132,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "409": {
             "schema": {
               "type": "object",
@@ -1091,6 +1206,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "404": {
             "schema": {
               "type": "object",
@@ -1159,6 +1277,9 @@
                 "name": "main"
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
           },
           "404": {
             "schema": {
@@ -1229,6 +1350,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "404": {
             "schema": {
               "type": "object",
@@ -1296,6 +1420,9 @@
                 "name": "main"
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
           },
           "404": {
             "schema": {
@@ -1382,6 +1509,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "409": {
             "schema": {
               "type": "object",
@@ -1457,6 +1587,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "404": {
             "schema": {
               "type": "object",
@@ -1530,6 +1663,9 @@
               }
             }
           },
+          "401": {
+            "description": "Unauthorized"
+          },
           "404": {
             "schema": {
               "type": "object",
@@ -1602,6 +1738,9 @@
                 "name": "main"
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
           },
           "404": {
             "schema": {
