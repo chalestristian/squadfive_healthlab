@@ -6,11 +6,10 @@
 ### HEALTHLAB - BACKEND API:
 
 **DESENVOLVIDO POR:** (Nome - Email - RA)
-_
-_Gabriel Lavalle - gabrielgarrido010798@gmail.com - 117115828_
-_
-_Thales Cristian - thaleseugenio.3012@aluno.unibh.br - 12013012_
 
+Gabriel Lavalle - gabrielgarrido010798@gmail.com - 117115828
+
+Thales Cristian - thaleseugenio.3012@aluno.unibh.br - 12013012
 
 ---
 **ACOMPANHAMENTO:**
