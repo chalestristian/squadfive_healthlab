@@ -24,7 +24,6 @@ function verifyJWT(req, res, next) {
 
 routes.post('/login', LoginController.create);
 
-
 /* --------------- ROTAS USUARIOS --------------- */
 routes.get('/usuarios', verifyJWT, UsuarioController.getAll);
 routes.get('/usuarios/:id', verifyJWT, UsuarioController.getOne);
@@ -40,7 +39,6 @@ routes.put('/conteudos/:id', verifyJWT, ConteudoController.update);
 routes.delete('/conteudos/:id', verifyJWT, ConteudoController.delete);
 
 /* --------------- ROTAS TAGS --------------- */
-
 routes.get('/tags', verifyJWT, TagController.getAll);
 routes.get('/tags/:id', verifyJWT, TagController.getOne);
 routes.post('/tags', verifyJWT, TagController.create);
