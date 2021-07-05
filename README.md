@@ -48,8 +48,6 @@ Disponibilização de curtos vídeos para reflexão, práticas de meditação, t
 
 **PROJETO INICIAL E FRONTEND:**
 
-Nossa squad nomeada de SquadFive (grupo 5) é composta pelos membros (NOME - E-MAIL - CURSO):
-
 Thales Cristian - thaleseugenio.3012@aluno.unibh.br - Ciências da Computação
 
 Julia Tavares - juliatavaresmoura@hotmail.com - Medicina
@@ -63,6 +61,7 @@ Benito Ricoy - benricoy@gmail.com - Ciências da Computação
 Pedro Frade - pedrobfrade@hotmail.com - Ciências da Computação
 
 Daniel Filho - danielfilho3011@gmail.com - Ciências da Computação
+
 
 **API BACKEND**
 
