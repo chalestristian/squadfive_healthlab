@@ -72,7 +72,7 @@ Thales Cristian - thaleseugenio.3012@aluno.unibh.br - 12013012
 ---
 **NOSSO ACOMPANHAMENTO:**
 
-[Trello](https://trello.com/invite/b/xnC6WW2n/100a8491c8a4a744cdc55845e2d19fd7/squadfivehealthlab)
+[Trello](https://trello.com/b/xnC6WW2n/squadfivehealthlab)
 
 ---
 **NOSSO PRAZO:**
