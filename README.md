@@ -1,4 +1,4 @@
-# [ GOOD NEWS - ESTE PROJETO ESTÁ SENDO REFATORADO NA BRANCH RELEASE-1.0 !!!]
+# [ GOOD NEWS - ESTE PROJETO ESTÁ SENDO REFATORADO !!!]
 ### Estou trabalhando para tirar as gambiarras, implementar uma arquitetura mais robusta e tornar esse código mais limpo, documentado e completamente funcional!!
 #### Como este projeto foi desenvolvido no meio do corrido primeiro semestre de 2021, confesso que não foi possível realizá-lo com as melhores práticas considerando que ainda estávamos aprendendo Angular e considerando também a especificação do projeto x tempo. Você consegue imaginar como é a vida de um universitário, né? Mil projetos e mil e uma provas haha. Ainda sim desenvolvemos uma solução funcional e tenho muito orgulho do que conseguimos fazer com tão pouco recurso e tempo, considerando ainda que este foi oficialmente o meu primeiro "projeto de grande porte". Agora, com mais tempo e conhecimento estou apto a levar essa solução ao próximo nível. Em breve, novidades por aqui :).
 
